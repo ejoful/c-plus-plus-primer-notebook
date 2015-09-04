@@ -22,16 +22,5 @@ int main()
 
     string i;
     cout << i[10] << endl;
-
-    decltype(s.size()) len1 = 0;
-    while(len1 != s.size())
-    {
-        if(!ispunct(s[len1]))
-           {
-               cout << s[len1];
-           }
-        len1++;
-    }
-    cout << endl;
     return 0;
 }
