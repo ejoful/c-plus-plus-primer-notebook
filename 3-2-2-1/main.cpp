@@ -11,7 +11,6 @@ int main()
         {
             cout << word << endl;
         }
-
     }
     return 0;
 }
